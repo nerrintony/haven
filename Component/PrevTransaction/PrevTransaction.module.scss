@@ -1,0 +1,58 @@
+.card-bg {
+    background-image: linear-gradient(to right, rgb(172, 120, 225), rgb(141, 227, 242), rgb(172, 120, 225), rgb(94, 226, 243));
+}
+
+.card-footer-bg {
+    background-color: rgb(64, 64, 194);
+}
+
+.text-color {
+    color: darkgray;
+}
+
+.caution-border {
+    width: 10em;
+    height: 10em;
+}
+
+.square1 {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(196, 243, 196);
+    border: 1px solid green;
+
+    div {
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 100%;
+    }
+}
+.square2 {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(188, 202, 248);
+    border: 1px solid blue;
+
+    div {
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 100%;
+    }
+}
+.square3 {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: rgb(252, 211, 252);
+    border: 1px solid violet;
+
+    div {
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 100%;
+        background-color: violet;
+    }
+}
+.icon-size{
+    width: 2em;
+    height: 1.5em;
+}

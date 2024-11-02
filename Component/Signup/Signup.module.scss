@@ -1,0 +1,54 @@
+.input-form {
+    border: .1px rgb(201, 200, 200) solid;
+}
+
+.btn-color {
+    background-color: midnightblue;
+}
+
+.text-color {
+    color: midnightblue;
+}
+
+.bg-color {
+    background-color: rgb(229, 220, 247);
+}
+
+.login-btn-color {
+    color: midnightblue;
+}
+
+.date-selector[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+}
+
+.date-selector[type="date"] {
+    position: relative;
+}
+.logo-img-circle2{
+    width: 8em;
+    height: 8em;
+    opacity: 85%;
+}
+.logo-img-circle1{
+    width: 12em;
+    height: 12em;
+    opacity: 85%;
+}
+@media (min-width: 1200px)  and (max-width: 1450px){
+    .select-bg-div{
+        width: 25%;
+    }
+}
+@media (min-width: 350px)  and (max-width: 405px){
+    .select-bg-div{
+        width: 30%;
+    }
+}
